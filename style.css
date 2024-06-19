@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container h3 {
+    font-family: Verdana, sans-serif;
+    color: #ffff;
+    text-align: center; 
+}
+
+.score-block {
+    width: 25vh;
+    height: 25vh;
+    background-color: black;
+    color: #F94F6D;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btn {
+    border: 2px solid #9AABD8;
+    width: 7vh;
+    height: 7vh;
+    border-radius: 5px;
+    background-color: #1B244A;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+}
